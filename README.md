@@ -1,0 +1,10 @@
+# Antishicnc
+- [Главная](https://doubley-dev.github.io/Antishicnc/index.html)
+- [Категория](https://doubley-dev.github.io/Antishicnc/categories_cases.html)
+- [Товар](https://doubley-dev.github.io/Antishicnc/product_page.html)
+- [Аксессуары](https://doubley-dev.github.io/Antishicnc/accessories.html)
+- [О нас](https://doubley-dev.github.io/Antishicnc/about_us.html)
+- [Приложение](https://doubley-dev.github.io/Antishicnc/application.html)
+- [Поставка запасных частей](https://doubley-dev.github.io/Antishicnc/cases.html)
+- [Контакты](https://doubley-dev.github.io/Antishicnc/contact_page.html)
+- [Информация](https://doubley-dev.github.io/Antishicnc/information_page.html)

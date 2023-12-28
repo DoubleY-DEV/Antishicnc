@@ -1,0 +1,162 @@
+.flex-block {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+
+.flex-inline {
+  display: inline-flex;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+}
+
+.footer {
+  background-image: url(../img/footer/fon.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.footer__top {
+  background-color: transparent;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.footer__bottom {
+  background-color: #000000;
+  position: relative;
+  z-index: 2;
+}
+
+.f-menu {
+  display: block;
+  width: 100%;
+}
+.f-menu__category {
+  display: inline-block;
+  padding-left: 50px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.f-menu__category::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 32px;
+  background-color: #f85c37;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -1px;
+}
+.f-menu__description {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-transform: capitalize;
+}
+.f-menu__description p {
+  margin-bottom: 10px;
+}
+.f-menu__description a {
+  color: #f85c37;
+}
+.f-menu__list {
+  text-transform: capitalize;
+}
+.f-menu__item {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.f-menu__item:last-child {
+  margin-bottom: 0;
+}
+.f-menu__link {
+  display: inline-block;
+  position: relative;
+  padding-left: 18px;
+  letter-spacing: 0.56px;
+  color: #f3f6fb;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+.f-menu__link svg {
+  height: 20px;
+  display: block;
+  fill: #f3f6fb;
+  position: absolute;
+  left: -5px;
+  top: 0;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+}
+.f-menu__link:hover {
+  color: #f85c37;
+}
+.f-menu__link:hover svg {
+  fill: #f85c37;
+}
+
+.f-social {
+  font-size: 0;
+  padding-top: 7px;
+}
+.f-social__item {
+  display: inline-block;
+  padding-left: 8px;
+}
+.f-social__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-position: center center;
+}
+
+.f-copy {
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  color: #f3f6fb;
+  font-size: 13px;
+  letter-spacing: 0.52;
+  padding: 23px 0;
+}
+
+.modal__description {
+  display: block;
+  padding-top: 12px;
+}
+.modal__form {
+  padding-top: 39px;
+}
+.modal__input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.modal__textarea {
+  width: 100%;
+  height: 131px;
+}
